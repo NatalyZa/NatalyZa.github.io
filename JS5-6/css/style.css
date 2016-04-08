@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.wrapper_timer {
+	margin: 240px auto;
+	width: 360px;
+	height: 175px;
+	padding: 17px;
+	border: 1px solid black;
+	border-radius: 20px;
+	background-color: #99CCFF;
+}
+#startwatch {
+	width: 320px;
+	height: 70px;
+	margin: 5px auto;
+	margin-bottom: 10px;
+	border: 2px solid black;
+	text-align: center;
+	font-size: 44px;
+	font-family: Courier;
+	background-color: white;
+}
+.btn {
+	width: 160px;
+}
+
+
