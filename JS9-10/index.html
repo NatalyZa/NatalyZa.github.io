@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Страница сайта</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script src="js/jcarousel.js"></script>
+	<script src="js/jquery.color.js"></script>
+	<script src="js/jquery.selectric.min.js"></script>
+	<script src="js/jquery.checkbox.js"></script>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/selectric.css">
+</head>
+<body>
+	<div class="wrapper">
+		<div class="logo">
+			<img src="img/logo1.jpg" alt="">
+		</div>
+		<nav class="main-menu">
+			<ul class="menu">
+				<li class="menu_item"><a href="#">Главная</a></li>
+				<li class="menu_item"><a href="#">Выбрать котика &#9660;</a>
+
+				<ul class="sub_menu">
+					<li class="sub_item"><a href="#">Рыжие</a></li>
+					<li class="sub_item"><a href="#">В пятнышку 	&#9658;</a>
+
+					<ul class="sub_menu1">
+						<li class="sub_item1"><a href="#">Большие</a></li>
+						<li class="sub_item1"><a href="#">Средние</a></li>
+						<li class="sub_item1"><a href="#">Маленькие</a></li>
+					</ul>
+					</li>
+
+					<li class="sub_item"><a href="#">Черные</a></li>
+					<li class="sub_item"><a href="#">Серые</a></li>
+				</ul>
+				</li>
+				<li class="menu_item"><a href="#">Еще котики</a></li>
+				<li class="menu_item"><a href="#">Контакты</a></li>
+			</ul>
+		</nav>
+
+<div class="wrapper_jcarousel">
+	<div class="jcarousel">
+		<ul>
+			<li><img src="img/Cat_1.jpg" alt=""></li>
+			<li><img src="img/cat_2.jpg" alt=""></li>
+			<li><img src="img/Cat_3.jpg" alt=""></li>
+			<li><img src="img/cat_4.jpg" alt=""></li>
+			<li><img src="img/cat_5.jpg" alt=""></li>
+		</ul>
+	</div>
+		<a class="jcarousel-prev" href="#">&lsaquo;</a>
+    <a class="jcarousel-next" href="#">&rsaquo;</a>
+</div>
+<div class="selected">
+	<div class="wrapper_select">
+	<p>Выбрать котика</p><br>
+		<select name="selection" id="selection">
+			<option value="Рыжий">Рыжий</option>
+			<option value="Белый">Белый</option>
+			<option value="Черный">Черный</option>
+			<option value="Серый">Серый</option>
+			<option value="В пятнышку">В пятнышку</option>
+			<option value="В полосочку">В полосочку</option>
+		</select><br>
+	</div>
+
+	<div class="wrapper_checkbox">
+		<p>Сколько котиков хотите забрать</p><br>
+		<span class="niceCheck"><input type="checkbox" name="check1" id="check1" value="off"></span>1<br>
+		<span class="niceCheck"><input type="checkbox" name="check1" id="check1" value="off"></span>2<br>
+		<span class="niceCheck"><input type="checkbox" name="check1" id="check1" value="off"></span>3<br>
+		<span class="niceCheck"><input type="checkbox" name="check1" id="check1" value="off"></span>4<br>
+	</div>
+
+<div class="wrapper_checkbox_cat">
+	<p>Где забирать</p><br>
+		<input type="checkbox" name="check1" id="checkin1" >
+		<label for="checkin1">Центр</label><br>
+		<input type="checkbox" name="check1" id="checkin2" value="off">
+		<label for="checkin2">Запад</label><br>
+		<input type="checkbox" name="check1" id="checkin3" value="off">
+		<label for="checkin3">Восток</label><br>
+		<input type="checkbox" name="check1" id="checkin4" value="off">
+		<label for="checkin4">Юг</label><br>
+</div>
+	<input type="submit" value="Отправить">
+</div>
+</div>
+	<script src="js/script.js"></script>
+</body>
+</html>
