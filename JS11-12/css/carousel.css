@@ -1,0 +1,22 @@
+.carousel {
+	overflow: hidden;
+}
+.carousel-list {    
+    list-style: none;
+    width: 10000px;
+    position: relative;
+}
+ 
+.carousel-element {
+    display: block;
+    margin-right: 25px;
+    float: left;
+}
+ 
+.carousel-element img {
+    max-width: 200px;
+}
+
+.carousel-list p {
+	text-align: center;
+}

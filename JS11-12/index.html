@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>HomeWork11-12</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script src="js/carousel.js"></script>
+	<script src="js/tmpl.js"></script>
+	<script src="js/script.js"></script>
+	<link rel="stylesheet" href="css/carousel.css">
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+<!-- CAROUSEL -->
+<div class="wrapper-carousel">
+	<p class="carousel_arrow_left"></p>
+		<div class="carousel">
+			<ul class="carousel-list">
+				<li class=
+		"carousel-element"><img src="img/img1.jpg">
+				<p>Place 1</p>
+				</li>
+				<li class=
+		"carousel-element"><img src="img/img2.jpg">
+				<p>Place 2</p>
+				</li>
+				<li class=
+		"carousel-element"><img src="img/img3.jpg">
+				<p>Place 3</p>
+				</li>
+				<li class=
+		"carousel-element"><img src="img/img4.jpg">
+				<p>Place 4</p>
+				</li>
+				<li class=
+		"carousel-element"><img src="img/img5.jpg">
+				<p>Place 5</p>
+				</li>
+				<li class=
+		"carousel-element"><img src="img/img6.jpg">
+				<p>Place 6</p>
+				</li>
+				<li class=
+		"carousel-element"><img src="img/img7.jpg">
+				<p>Place 7</p>
+				</li>
+				<li class=
+		"carousel-element"><img src="img/img8.jpg">
+				<p>Place 8</p>
+				</li>
+				<li class=
+		"carousel-element"><img src="img/img9.jpg">
+				<p>Place 9</p>
+				</li>
+				<li class=
+		"carousel-element"><img src="img/img10.jpg">
+				<p>Place 10</p>
+				</li>
+				<li class=
+		"carousel-element"><img src="img/img11.jpg">
+				<p>Place 11</p>
+				</li>
+				<li class=
+		"carousel-element"><img src="img/img12.jpg">
+				<p>Place 12</p>
+				</li>
+				</ul>
+			</div>
+		<p class="carousel_arrow_right"></p>
+	</div>
+
+<!-- 	TEMPLATE -->
+<p class="button_show">Показать ДЗ 11-12</p>
+<div id="results"></div> 
+<script type="text/tmpl" id="item_tmpl">
+			<% for ( var i = 0; i < members.length; i++ ) { %>
+			<h2><%= members[i].name %></h2>
+
+			<img src="<%= members[i].photo %>" alt="photo">
+			<p><%= members[i].profession %></p>
+			<hr>
+			<p><%= members[i].reason %></p>
+			<br>
+			<ul>
+				<li><%= members[i].cause1 %></li>
+				<li><%= members[i].cause2 %></li>
+				<li><%= members[i].cause3 %></li>
+			</ul>
+			<hr>
+			<p><%= members[i].contact %></p>
+			<p><%= members[i].phone %></p>
+			<br>
+			<p><%= members[i].vk %></p>
+			<p><a href="<%= members[i].link %>"><%= members[i].link %></a></p>
+			<hr>
+			<p><%= members[i].action %></p>
+			<p><%= members[i].feedback %></p>
+			<% }; %>
+		</script>
+</body>
+</html>
