@@ -23,7 +23,7 @@ function resetTimer () {
 
 function increment () {
 			var nowDate = new Date();
-  			var time = nowDate.getTime() - startTime.getTime();
+  		time = nowDate.getTime() - startTime.getTime();
 			var tenths = time % 1000; 
 			time -= tenths; 
 			tenths = Math.floor(tenths);
