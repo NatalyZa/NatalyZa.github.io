@@ -11,21 +11,21 @@ $(function(){
     $('#firstname').mouseover(function() { 
       $('#first_hint').animate({opacity: 1}, 1000);
     }).mouseout(function() {
-      $('#first_hint').finish;
+      $('#first_hint').finish();
       $('#first_hint').animate({opacity: 0}, 1000);
     });
 
     $('#lastname').mouseover(function() {
       $('#second_hint').animate({opacity: 1}, 1000);
     }).mouseout(function() {
-      $('#second_hint').finish;
+      $('#second_hint').finish();
       $('#second_hint').animate({opacity: 0}, 1000);
     });
 
     $('#address').mouseover(function() {
       $('#third_hint').animate({opacity: 1}, 1000);
     }).mouseout(function() {
-      $('#third_hint').finish;
+      $('#third_hint').finish();
       $('#third_hint').animate({opacity: 0}, 1000);
     });  
 });
