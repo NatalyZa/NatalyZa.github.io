@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif, arial;
+}
+.wrapper {
+	width: 350px;
+	height: 160px;
+	margin: -80px 0 0 -175px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+#logo {
+	width: 350px;
+	height: 120px;
+	display: block;
+}
+#text_search {
+	width: 220px;
+	height: 35px;
+	font-size: 20px;
+}
+#button_submit {
+	width: 120px;
+	height: 35px;
+	font-size: 20px;
+}
+.add_results {
+	margin-left: 50px;
+	margin-top: 200px;
+}
+.image-output {
+	width: 400px;
+	height: 260px;
+}
