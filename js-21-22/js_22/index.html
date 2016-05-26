@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Test</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	<script src="js/tmpl.js"></script>
+	<script src="js/dist/app.js"></script>
+</head>
+<body>
+	<div class="wrapper">
+
+		<script type="text/template" id="item_tmpl">
+		<form name="quiz">
+			<h2>Тест по программированию</h2>
+			<ol>
+			<% for (var i = 0; i < data.length; i++) { %>
+				<p><%= data[i].text %></p>
+				<ul>
+				<% for (var j = 0; j < data[i].answers.length; j++) { %>
+					<li><input type="radio" name="<%= data[i].text %>" class="radio" value="<%= data[i].answers[j] %>" id="<%= 'radio-' + i + '_' + j %>"><label for="<%= 'radio-' + i + '_' + j %>"><%= data[i].answers[j] %></label></li>
+				<% }; %>	
+				</ul> 
+			<% }; %>	
+			</ol>
+			<input type="button" id="button"  value="Узнать результаты"/>
+		</form>
+		</script>
+	</div>
+	<div class="modal_background">
+		<div class="modal_wrapper">
+			<h3>Результаты теста</h3>
+		</div>
+	</div>
+</body>
+</html>
