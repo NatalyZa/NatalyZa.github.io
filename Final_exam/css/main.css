@@ -1,0 +1,530 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+.wrapper {
+  min-width: 320px;
+  /*end header*/
+  /*end steps*/
+  /*end partners*/
+  /*end ideas*/
+  /*end footer*/ }
+  .wrapper .header {
+    /*header*/
+    height: 525px;
+    padding-top: 15px;
+    position: relative;
+    background-image: url(../img/logo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-family: "Montserrat", "Arial";
+    color: white; }
+    @media screen and (min-width: 767px) {
+      .wrapper .header {
+        height: 686px; } }
+    .wrapper .header .header_logo {
+      position: absolute;
+      width: 100%;
+      top: 174px;
+      font-size: 22px; }
+      @media screen and (min-width: 767px) {
+        .wrapper .header .header_logo {
+          width: 200px;
+          top: 50px;
+          left: 26px;
+          font-size: 21px; } }
+      .wrapper .header .header_logo a:hover {
+        color: black; }
+    .wrapper .header a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold; }
+    @media screen and (min-width: 767px) {
+      .wrapper .header .header_menu {
+        position: absolute;
+        display: inline-block;
+        top: 33px;
+        right: 38px; } }
+    .wrapper .header .header_menu #Log-in {
+      margin: 6px; }
+      .wrapper .header .header_menu #Log-in:hover {
+        color: black; }
+    .wrapper .header .header_menu #Sign-up {
+      margin: 6px;
+      width: 85px;
+      height: 30px;
+      border: 2px solid white;
+      border-radius: 15px;
+      line-height: 30px;
+      display: inline-block; }
+      .wrapper .header .header_menu #Sign-up:hover {
+        background-color: black; }
+    .wrapper .header .header_slogan {
+      margin-top: 160px; }
+      @media screen and (min-width: 767px) {
+        .wrapper .header .header_slogan {
+          margin-top: 198px; } }
+      .wrapper .header .header_slogan h1 {
+        font-size: 27px;
+        line-height: 37px;
+        font-weight: bold; }
+        @media screen and (min-width: 767px) {
+          .wrapper .header .header_slogan h1 {
+            font-size: 50px;
+            line-height: 64px; } }
+        @media screen and (min-width: 958px) {
+          .wrapper .header .header_slogan h1 {
+            width: 530px;
+            margin: 0 auto; } }
+      .wrapper .header .header_slogan p {
+        margin-top: 8px;
+        font: 100 18px "Roboto"; }
+        @media screen and (min-width: 767px) {
+          .wrapper .header .header_slogan p {
+            font: 100 26px "Roboto"; } }
+      .wrapper .header .header_slogan .header_button {
+        width: 280px;
+        height: 40px;
+        display: block;
+        margin: 15px auto;
+        background-color: #ff4e50;
+        border-radius: 20px;
+        line-height: 40px; }
+        @media screen and (min-width: 767px) {
+          .wrapper .header .header_slogan .header_button {
+            width: 225px; } }
+        .wrapper .header .header_slogan .header_button:hover {
+          color: black; }
+  .wrapper .steps {
+    /*steps*/
+    padding-top: 40px;
+    height: 780px;
+    /*end steps-1 */
+    /*end steps-2*/
+    /*end steps-3 */ }
+    @media screen and (min-width: 767px) {
+      .wrapper .steps {
+        padding-top: 100px;
+        text-align: center;
+        height: 520px; } }
+    .wrapper .steps h3 {
+      margin-bottom: 15px;
+      font-family: "Montserrat";
+      font-size: 22px;
+      font-weight: bold;
+      text-align: center; }
+      @media screen and (min-width: 767px) {
+        .wrapper .steps h3 {
+          margin-bottom: 30px; } }
+    .wrapper .steps .steps-1 {
+      /*steps-1 */
+      width: 260px;
+      height: 170px;
+      margin: 10px auto;
+      padding: 70px 20px 0px;
+      position: relative;
+      background-image: url(../img/step-1_mobile.png);
+      overflow: hidden;
+      text-align: left; }
+      @media screen and (min-width: 767px) {
+        .wrapper .steps .steps-1 {
+          width: 195px;
+          height: 188px;
+          margin: 6px;
+          padding: 213px 20px 0px;
+          display: inline-block;
+          text-align: left;
+          background-image: url(../img/step-1_tablet.png); } }
+      @media screen and (min-width: 958px) {
+        .wrapper .steps .steps-1 {
+          width: 258px;
+          background-image: url(../img/step-1_desktop.png); } }
+      .wrapper .steps .steps-1 .steps-1_nav_left {
+        position: absolute;
+        width: 150px;
+        height: 240px;
+        left: 0;
+        top: 0; }
+        @media screen and (min-width: 767px) {
+          .wrapper .steps .steps-1 .steps-1_nav_left {
+            width: 30px;
+            height: 55px;
+            background-image: url(../img/lefl_arrow_tablet.png);
+            left: 10px;
+            top: 35px; } }
+      .wrapper .steps .steps-1 .steps-1_nav_right {
+        position: absolute;
+        width: 150px;
+        height: 240px;
+        right: 0;
+        top: 0; }
+        @media screen and (min-width: 767px) {
+          .wrapper .steps .steps-1 .steps-1_nav_right {
+            width: 30px;
+            height: 55px;
+            background-image: url(../img/right_arrow_tablet.png);
+            right: 10px;
+            top: 35px; } }
+      .wrapper .steps .steps-1 .steps-1_block1, .wrapper .steps .steps-1 .steps-1_block2, .wrapper .steps .steps-1 .steps-1_block3 {
+        display: none; }
+        .wrapper .steps .steps-1 .steps-1_block1.show, .wrapper .steps .steps-1 .steps-1_block2.show, .wrapper .steps .steps-1 .steps-1_block3.show {
+          display: block; }
+    .wrapper .steps .steps-2 {
+      /*steps-2*/
+      width: 260px;
+      height: 170px;
+      margin: 10px auto;
+      padding: 70px 20px 0px;
+      position: relative;
+      background-image: url(../img/step-2_mobile.png);
+      overflow: hidden; }
+      @media screen and (min-width: 767px) {
+        .wrapper .steps .steps-2 {
+          width: 195px;
+          height: 188px;
+          margin: 6px;
+          padding: 213px 20px 0px;
+          display: inline-block;
+          text-align: left;
+          background-image: url(../img/step-2_tablet.png); } }
+      @media screen and (min-width: 958px) {
+        .wrapper .steps .steps-2 {
+          width: 258px;
+          background-image: url(../img/step-2_desktop.png); } }
+      .wrapper .steps .steps-2 .steps-2_nav_left {
+        position: absolute;
+        width: 150px;
+        height: 240px;
+        left: 0;
+        top: 0; }
+        @media screen and (min-width: 767px) {
+          .wrapper .steps .steps-2 .steps-2_nav_left {
+            width: 30px;
+            height: 55px;
+            background-image: url(../img/lefl_arrow_tablet.png);
+            left: 10px;
+            top: 35px; } }
+      .wrapper .steps .steps-2 .steps-2_nav_right {
+        position: absolute;
+        width: 150px;
+        height: 240px;
+        right: 0;
+        top: 0; }
+        @media screen and (min-width: 767px) {
+          .wrapper .steps .steps-2 .steps-2_nav_right {
+            width: 30px;
+            height: 55px;
+            background-image: url(../img/right_arrow_tablet.png);
+            right: 10px;
+            top: 35px; } }
+      .wrapper .steps .steps-2 .steps-2_block1, .wrapper .steps .steps-2 .steps-2_block2, .wrapper .steps .steps-2 .steps-2_block3 {
+        display: none; }
+        .wrapper .steps .steps-2 .steps-2_block1.show, .wrapper .steps .steps-2 .steps-2_block2.show, .wrapper .steps .steps-2 .steps-2_block3.show {
+          display: block; }
+    .wrapper .steps .steps-3 {
+      /*steps-3 */
+      width: 260px;
+      height: 170px;
+      margin: 10px auto;
+      padding: 70px 20px 0px;
+      position: relative;
+      background-image: url(../img/step-3_mobile.png);
+      overflow: hidden; }
+      @media screen and (min-width: 767px) {
+        .wrapper .steps .steps-3 {
+          width: 195px;
+          height: 188px;
+          margin: 6px;
+          padding: 213px 20px 0px;
+          display: inline-block;
+          text-align: left;
+          background-image: url(../img/step-3_tablet.png); } }
+      @media screen and (min-width: 958px) {
+        .wrapper .steps .steps-3 {
+          width: 258px;
+          background-image: url(../img/step-3_desktop.png); } }
+      .wrapper .steps .steps-3 .steps-3_nav_left {
+        position: absolute;
+        width: 150px;
+        height: 240px;
+        left: 0;
+        top: 0; }
+        @media screen and (min-width: 767px) {
+          .wrapper .steps .steps-3 .steps-3_nav_left {
+            width: 30px;
+            height: 55px;
+            background-image: url(../img/lefl_arrow_tablet.png);
+            left: 10px;
+            top: 35px; } }
+      .wrapper .steps .steps-3 .steps-3_nav_right {
+        position: absolute;
+        width: 150px;
+        height: 240px;
+        right: 0;
+        top: 0; }
+        @media screen and (min-width: 767px) {
+          .wrapper .steps .steps-3 .steps-3_nav_right {
+            width: 30px;
+            height: 55px;
+            background-image: url(../img/right_arrow_tablet.png);
+            right: 10px;
+            top: 35px; } }
+      .wrapper .steps .steps-3 .steps-3_block1, .wrapper .steps .steps-3 .steps-3_block2, .wrapper .steps .steps-3 .steps-3_block3 {
+        display: none; }
+        .wrapper .steps .steps-3 .steps-3_block1.show, .wrapper .steps .steps-3 .steps-3_block2.show, .wrapper .steps .steps-3 .steps-3_block3.show {
+          display: block; }
+    .wrapper .steps .steps_mark {
+      width: 70px;
+      height: 18px;
+      margin-bottom: 15px;
+      background-color: #ff4e50;
+      border-radius: 10px;
+      text-align: center;
+      line-height: 18px;
+      color: white;
+      font-size: 10px;
+      font-weight: bold; }
+    .wrapper .steps .steps_header {
+      margin-bottom: 15px;
+      color: white;
+      font-size: 22px;
+      line-height: 28px;
+      font-weight: bold; }
+    .wrapper .steps .steps_text {
+      margin-bottom: 80px;
+      font: 100 14px "Roboto";
+      color: #ccc; }
+  .wrapper .partners {
+    /*partners*/
+    margin-top: 30px;
+    text-align: center; }
+    .wrapper .partners h2 {
+      width: 300px;
+      margin: 0 auto;
+      font: 700 22px "Montserrat";
+      line-height: 26px; }
+      @media screen and (min-width: 767px) {
+        .wrapper .partners h2 {
+          width: 100%; } }
+    .wrapper .partners .partners_block {
+      width: 220px;
+      margin: 10px auto 20px; }
+      @media screen and (min-width: 767px) {
+        .wrapper .partners .partners_block {
+          display: inline-block;
+          margin: 26px 15px -5px 15px;
+          vertical-align: top; } }
+      @media screen and (min-width: 958px) {
+        .wrapper .partners .partners_block {
+          margin: 30px 5px 0 5px; } }
+      .wrapper .partners .partners_block .partners_name {
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 42px; }
+      .wrapper .partners .partners_block .partners_description {
+        font: 100 14px "Roboto";
+        color: #aaa; }
+    .wrapper .partners .partners_search_button {
+      width: 275px;
+      height: 35px;
+      margin: 25px auto 0;
+      display: block;
+      border: 2px solid #ff4e50;
+      border-radius: 20px;
+      font: 700 14px "Montserrat";
+      line-height: 35px;
+      text-decoration: none;
+      color: #ff4e50; }
+      @media screen and (min-width: 767px) {
+        .wrapper .partners .partners_search_button {
+          width: 190px;
+          margin: 70px auto 60px; } }
+      @media screen and (min-width: 958px) {
+        .wrapper .partners .partners_search_button {
+          margin: 30px auto 60px; } }
+      .wrapper .partners .partners_search_button:hover {
+        color: black; }
+  .wrapper .ideas {
+    /*ideas*/
+    height: 1385px;
+    padding-top: 25px;
+    position: relative;
+    text-align: center;
+    border-bottom: 3px solid #ff4e50; }
+    @media screen and (min-width: 767px) {
+      .wrapper .ideas {
+        height: 1393px; } }
+    .wrapper .ideas h2 {
+      padding-top: 10px;
+      font: 700 22px "Montserrat";
+      margin-bottom: 10px; }
+      @media screen and (min-width: 767px) {
+        .wrapper .ideas h2 {
+          margin-bottom: 34px; } }
+    .wrapper .ideas .grid {
+      width: 300px;
+      margin: 0 auto; }
+      @media screen and (min-width: 767px) {
+        .wrapper .ideas .grid {
+          width: 760px; } }
+      @media screen and (min-width: 958px) {
+        .wrapper .ideas .grid {
+          width: 950px; } }
+      .wrapper .ideas .grid .ideas_warning {
+        width: 600px;
+        height: 100px;
+        margin: 0 auto;
+        background-color: #eee;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 25px;
+        text-shadow: 1px 1px 1px #153b69;
+        line-height: 100px; }
+      .wrapper .ideas .grid .grid-item {
+        display: inline-block;
+        position: relative;
+        border-radius: 5px; }
+        .wrapper .ideas .grid .grid-item img {
+          width: 270px;
+          height: 150px; }
+          @media screen and (min-width: 767px) {
+            .wrapper .ideas .grid .grid-item img {
+              width: 250px;
+              height: 310px; } }
+          @media screen and (min-width: 958px) {
+            .wrapper .ideas .grid .grid-item img {
+              width: 300px;
+              height: 300px; } }
+        @media screen and (min-width: 767px) {
+          .wrapper .ideas .grid .grid-item:nth-child(5) img {
+            width: 500px; } }
+        @media screen and (min-width: 958px) {
+          .wrapper .ideas .grid .grid-item:nth-child(5) img {
+            width: 600px; } }
+        @media screen and (min-width: 767px) {
+          .wrapper .ideas .grid .grid-item:nth-child(6) img {
+            width: 500px; } }
+        @media screen and (min-width: 958px) {
+          .wrapper .ideas .grid .grid-item:nth-child(6) img {
+            width: 600px; } }
+        .wrapper .ideas .grid .grid-item h3 {
+          padding-left: 20px;
+          font-size: 20px;
+          font-weight: bold;
+          position: absolute;
+          top: 40%;
+          color: white; }
+    .wrapper .ideas .ideas_holiday {
+      width: 330px;
+      height: 230px;
+      margin-left: -170px;
+      position: absolute;
+      bottom: 40px;
+      left: 50%; }
+      @media screen and (min-width: 767px) {
+        .wrapper .ideas .ideas_holiday {
+          width: 450px;
+          height: 275px;
+          margin-left: -230px;
+          bottom: 17px; } }
+      .wrapper .ideas .ideas_holiday h3 {
+        margin: 35px 0 10px;
+        font: 700 22px "Montserrat"; }
+        @media screen and (min-width: 767px) {
+          .wrapper .ideas .ideas_holiday h3 {
+            margin: 35px 0 33px; } }
+      .wrapper .ideas .ideas_holiday span {
+        font-size: 16px; }
+      .wrapper .ideas .ideas_holiday input {
+        width: 270px;
+        height: 34px;
+        margin: 20px auto 10px;
+        display: block;
+        border-radius: 5px; }
+        @media screen and (min-width: 767px) {
+          .wrapper .ideas .ideas_holiday input {
+            width: 237px;
+            margin: 38px auto 10px;
+            display: inline-block; } }
+      .wrapper .ideas .ideas_holiday button {
+        width: 270px;
+        height: 44px;
+        border-radius: 22px;
+        color: white;
+        background-color: #ff4e50;
+        font-size: 14px; }
+        @media screen and (min-width: 767px) {
+          .wrapper .ideas .ideas_holiday button {
+            width: 162px;
+            margin-top: 28px; } }
+        .wrapper .ideas .ideas_holiday button:hover {
+          color: black; }
+  .wrapper .footer {
+    /*footer*/
+    padding-top: 20px;
+    text-align: center; }
+    @media screen and (min-width: 767px) {
+      .wrapper .footer {
+        padding-top: 36px; } }
+    .wrapper .footer h3 {
+      font-weight: bold;
+      font-size: 16px; }
+      @media screen and (min-width: 767px) {
+        .wrapper .footer h3 {
+          margin-left: 30px;
+          float: left; } }
+      .wrapper .footer h3 a {
+        text-decoration: none;
+        color: #ff4e50; }
+        .wrapper .footer h3 a:hover {
+          color: black; }
+    @media screen and (min-width: 767px) {
+      .wrapper .footer .footer_wrapper {
+        width: 250px;
+        margin: 0 auto; } }
+    @media screen and (min-width: 958px) {
+      .wrapper .footer .footer_wrapper {
+        margin-left: 25%; } }
+    @media screen and (min-width: 767px) {
+      .wrapper .footer .footer_wrapper .footer_company {
+        width: 120px;
+        display: inline-block;
+        text-align: left; } }
+    .wrapper .footer .footer_wrapper .footer_company .footer_company_menu .footer_menu_item {
+      margin: 5px;
+      display: inline-block; }
+      @media screen and (min-width: 767px) {
+        .wrapper .footer .footer_wrapper .footer_company .footer_company_menu .footer_menu_item {
+          display: block; } }
+      .wrapper .footer .footer_wrapper .footer_company .footer_company_menu .footer_menu_item a {
+        text-decoration: none;
+        color: black; }
+    .wrapper .footer .footer_wrapper h4 {
+      margin-top: 10px;
+      font-weight: bold;
+      font-size: 13px; }
+      @media screen and (min-width: 767px) {
+        .wrapper .footer .footer_wrapper h4 {
+          margin-top: 0;
+          margin-bottom: 13px; } }
+    @media screen and (min-width: 767px) {
+      .wrapper .footer .footer_wrapper .footer_partners {
+        width: 120px;
+        display: inline-block;
+        vertical-align: top; } }
+    .wrapper .footer .footer_logo {
+      width: 110px;
+      height: 40px;
+      margin-top: 20px;
+      background-image: url(../img/designed_logo_mobile.png); }
+      @media screen and (min-width: 767px) {
+        .wrapper .footer .footer_logo {
+          width: 115px;
+          height: 44px;
+          margin-top: -120px;
+          float: right;
+          margin-right: 30px;
+          background-image: url(../img/designed_logo_tablet.png); } }
+
+/*end*/
+
+/*# sourceMappingURL=main.css.map */
